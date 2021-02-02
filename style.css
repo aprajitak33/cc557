@@ -67,30 +67,61 @@ p {
 }
 
 .links {
-    float: left;
-    color: azure;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+  
+    padding-left: 33px;
+    padding-right: 25px;
+
     font-family: 'Lobster', cursive;
     font-size: 20px;
+    display: inline;
 
 
 
 }
 
 .menu {
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 90px;
+   
+    position: fixed;
+    top: 0px;
+    
     z-index: 10;
     cursor: pointer;
-
+    background: white;
+    width: 100%;
+margin-top: 0px;
 
 
 }
 .links:hover {
-    background-color: crimson;
+
+    font-size: 25px
+}
+
+a{
+    
+    
+    text-decoration: none;
+    color: crimson;
+     text-shadow:2px 2px gainsboro;
+    
+    
+        
+}
+
+#contact  h3 {
+ 
+    
+    display: inline; }
+    
+#contact iframe {
+    
+    width: 100%;
+} 
+    
+    
+    
+    
+    
+    
+    
 }
